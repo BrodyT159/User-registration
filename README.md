@@ -14,15 +14,10 @@ A complete, secure, and modern web application that allows users to register, lo
 * **Token-Based Authorization:** Uses JSON Web Tokens (JWT) for secure, stateless API communication.
 * **Complete File Management:** Users can upload, list, download, and delete their own files.
 * **Protected Endpoints:** API routes are secured, ensuring users can only access their own data.
-* **Polished UI:** A clean, Apple-inspired user interface.
 * **Light/Dark Mode:** A theme toggle for user preference.
 * **Cloud Deployed:** The backend and database are deployed on Render, with the frontend hosted on GitHub Pages.
 
 ---
-
-## Technologies Used
-
-This project was built using a modern, robust tech stack:
 
 #### **Backend**
 * **Java 17** & **Spring Boot 3:** For the core application logic.
@@ -41,7 +36,7 @@ This project was built using a modern, robust tech stack:
 * **Git & GitHub:** For version control.
 * **Render:** For hosting the live Java backend and PostgreSQL database.
 * **GitHub Pages:** For hosting the static React frontend.
-* **Postman:** Used extensively for API testing and validation.
+* **Postman:** Used for API testing and validation.
 
 ---
 
