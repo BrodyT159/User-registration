@@ -30,7 +30,7 @@ function App() {
   };
 
   return (
-    <Router>
+    <Router basename="/User-registration">
       <div className="App">
         <header className="App-header">
           <div className="header-brand">
