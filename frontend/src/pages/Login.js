@@ -18,11 +18,15 @@ function LoginPage({ onLoginSuccess }) {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
+      // This part is critical. The headers object should ONLY contain Content-Type.
       const response = await fetch('https://user-registration-1-vx30.onrender.com/api/auth/login', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+        headers: {
+          'Content-Type': 'application/json',
+        },
         body: JSON.stringify({ username, password }),
       });
+      
       const data = await response.json();
       if (data.token) {
         localStorage.setItem('jwt_token', data.token);
